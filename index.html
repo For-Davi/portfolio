@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos Davi | Full Stack Developer & Engineer</title>
+    <title>Carlos Davi | Full Stack Developer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -28,7 +28,34 @@
                 <a href="#experiencia" class="hover:text-emerald-400 transition">Carreira</a>
                 <a href="#skills" class="hover:text-emerald-400 transition">Tecnologias</a>
             </div>
-            <a href="mailto:carlosdavi004@gmail.com" class="bg-emerald-600/10 border border-emerald-500/50 text-emerald-400 px-5 py-2 rounded-xl text-xs font-bold hover:bg-emerald-600 hover:text-white transition">LET'S TALK</a>
+            <div class="relative group">
+                <button
+                    class="bg-emerald-600/10 border border-emerald-500/50 text-emerald-400 px-5 py-2 rounded-xl text-xs font-bold hover:bg-emerald-600 hover:text-white transition flex items-center gap-2"
+                >
+                    Entre em contato
+                    <i data-lucide="chevron-down" class="w-4 h-4"></i>
+                </button>
+                <div
+                    class="absolute right-0 mt-2 w-56 bg-zinc-900 border border-emerald-500/30 rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 transition-all duration-200"
+                >
+                    <a
+                    href="mailto:carlosdavi004@gmail.com"
+                    class="flex items-center gap-3 px-4 py-3 text-sm text-gray-300 hover:bg-emerald-600 hover:text-white rounded-t-xl transition"
+                    >
+                    <i data-lucide="mail" class="w-4 h-4"></i>
+                    Enviar Email
+                    </a>
+
+                    <a
+                    href="https://wa.me/5585981759726"
+                    target="_blank"
+                    class="flex items-center gap-3 px-4 py-3 text-sm text-gray-300 hover:bg-emerald-600 hover:text-white rounded-b-xl transition"
+                    >
+                    <i data-lucide="message-circle" class="w-4 h-4"></i>
+                    WhatsApp
+                    </a>
+                </div>
+                </div>
         </div>
     </nav>
 
@@ -37,33 +64,47 @@
         <div class="w-32 h-32 rounded-3xl border-2 border-emerald-500/20 rotate-3 overflow-hidden mb-10 shadow-2xl">
             <img src="https://github.com/carlosdavi.png" alt="Carlos Davi" class="w-full h-full object-cover -rotate-3 scale-110">
         </div>
-        <h1 class="text-6xl md:text-8xl font-black text-white mb-4 tracking-tighter">Carlos Davi [cite: 4]</h1>
+        <h1 class="text-6xl md:text-8xl font-black text-white mb-4 tracking-tighter">Carlos Davi</h1>
         <p class="text-xl md:text-2xl font-light tracking-widest uppercase mb-8">
-            <span class="text-gradient font-bold">Full Stack Developer</span> [cite: 5] & <span class="text-zinc-500 font-bold">Software Engineer</span> [cite: 11]
+            <span class="text-gradient font-bold">Full Stack Developer</span>
         </p>
         <div class="flex space-x-6">
-            <a href="https://github.com/carlosdavi" class="text-zinc-500 hover:text-white transition"><i data-lucide="github"></i></a>
-            <a href="https://www.linkedin.com/in/carlos-davi-a0a810159/" class="text-zinc-500 hover:text-white transition"><i data-lucide="linkedin"></i></a>
-            <a href="mailto:carlosdavi004@gmail.com" class="text-zinc-500 hover:text-white transition"><i data-lucide="mail"></i></a>
+            <a 
+                href="https://github.com/carlosdavi"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-zinc-500 hover:text-white transition"
+            >
+                <i data-lucide="github"></i>
+            </a>
+
+            <a 
+                href="https://www.linkedin.com/in/carlos-davi-a0a810159/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-zinc-500 hover:text-white transition"
+            >
+                <i data-lucide="linkedin"></i>
+            </a>
         </div>
     </header>
 
     <div class="max-w-5xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 py-10 border-y border-zinc-800/50">
         <div class="text-center">
             <div class="text-3xl font-black text-white">4+</div>
-            <div class="text-xs text-zinc-500 uppercase tracking-tighter">Anos de Código</div>
+            <div class="text-xs text-zinc-500 uppercase tracking-tighter">Anos de Experiência</div>
         </div>
         <div class="text-center">
             <div class="text-3xl font-black text-white italic">Laravue</div>
-            <div class="text-xs text-zinc-500 uppercase tracking-tighter">Stack Principal [cite: 13]</div>
+            <div class="text-xs text-zinc-500 uppercase tracking-tighter">Stack Principal</div>
         </div>
         <div class="text-center">
-            <div class="text-3xl font-black text-white">2</div>
-            <div class="text-xs text-zinc-500 uppercase tracking-tighter">Pós-Graduações [cite: 36]</div>
+            <div class="text-3xl font-black text-white">1</div>
+            <div class="text-xs text-zinc-500 uppercase tracking-tighter">Pós-Graduação</div>
         </div>
         <div class="text-center">
-            <div class="text-3xl font-black text-white">CEO</div>
-            <div class="text-xs text-zinc-500 uppercase tracking-tighter">Mindset de Liderança [cite: 17, 27]</div>
+            <div class="text-3xl font-black text-white">+10</div>
+            <div class="text-xs text-zinc-500 uppercase tracking-tighter">Projetos desenvolvidos</div>
         </div>
     </div>
 
@@ -71,24 +112,21 @@
         <div class="grid md:grid-cols-2 gap-16 items-center">
             <div>
                 <h2 class="text-emerald-500 font-bold text-sm tracking-[0.3em] uppercase mb-4">01. Perfil</h2>
-                <h3 class="text-4xl font-bold text-white mb-6 tracking-tight">Engenharia de Produção encontra o Software. [cite: 11]</h3>
-                <p class="leading-relaxed text-zinc-400 mb-6">
-                    Minha base acadêmica em <span class="text-zinc-200">Engenharia de Produção</span> [cite: 35] me deu a disciplina de otimização de processos, que aplico hoje na arquitetura de sistemas escaláveis. [cite: 11, 12]
-                </p>
+                <h3 class="text-4xl font-bold text-white mb-6 tracking-tight">Engenheiro de Software</h3>
                 <p class="leading-relaxed text-zinc-400">
-                    Especialista em criar soluções do zero ao deploy, atuando tanto no gerenciamento de equipes quanto no desenvolvimento técnico rigoroso. [cite: 12, 15]
+                    Especialista em criar soluções do zero ao deploy, atuando tanto no gerenciamento de equipes quanto no desenvolvimento técnico.
                 </p>
             </div>
             <div class="grid grid-cols-2 gap-4">
                 <div class="glass p-6 rounded-2xl">
                     <i data-lucide="map-pin" class="text-emerald-500 mb-4"></i>
                     <h4 class="text-white font-bold text-sm">Localização</h4>
-                    <p class="text-xs text-zinc-500">Fortaleza - CE [cite: 9]</p>
+                    <p class="text-xs text-zinc-500">Maracanaú - CE</p>
                 </div>
                 <div class="glass p-6 rounded-2xl">
                     <i data-lucide="code-2" class="text-purple-500 mb-4"></i>
                     <h4 class="text-white font-bold text-sm">Especialidade</h4>
-                    <p class="text-xs text-zinc-500 italic">API & Server-side [cite: 13]</p>
+                    <p class="text-xs text-zinc-500 italic">Web & Mobile</p>
                 </div>
             </div>
         </div>
@@ -98,21 +136,31 @@
         <div class="max-w-5xl mx-auto px-6">
             <h2 class="text-emerald-500 font-bold text-sm tracking-[0.3em] uppercase mb-12 text-center">02. Como posso ajudar</h2>
             <div class="grid md:grid-cols-3 gap-8">
+                
                 <div class="skill-card p-8 rounded-3xl">
                     <i data-lucide="layers" class="text-emerald-500 mb-6"></i>
                     <h4 class="text-xl font-bold text-white mb-3">Full Stack Dev</h4>
-                    <p class="text-sm text-zinc-500">Sistemas robustos com Laravel e Vue.js, focados em performance e UX. [cite: 13, 19]</p>
+                    <p class="text-sm text-zinc-500">
+                        Desenvolvimento de sistemas web robustos utilizando Laravel, Node e Vue, com foco em performance, escalabilidade e experiência do usuário.
+                    </p>
                 </div>
+
                 <div class="skill-card p-8 rounded-3xl">
                     <i data-lucide="users" class="text-emerald-500 mb-6"></i>
-                    <h4 class="text-xl font-bold text-white mb-3">Team Leadership</h4>
-                    <p class="text-sm text-zinc-500">Planejamento de tarefas, mentoria técnica e code review. [cite: 15, 33]</p>
+                    <h4 class="text-xl font-bold text-white mb-3">Apps Mobile</h4>
+                    <p class="text-sm text-zinc-500">
+                        Criação de aplicativos multiplataforma com React Native, integrados a APIs modernas e preparados para publicação em Android e iOS.
+                    </p>
                 </div>
+
                 <div class="skill-card p-8 rounded-3xl">
                     <i data-lucide="database" class="text-emerald-500 mb-6"></i>
                     <h4 class="text-xl font-bold text-white mb-3">Arquitetura SQL/NoSQL</h4>
-                    <p class="text-sm text-zinc-500">Modelagem eficiente com MySQL, PostgreSQL e MongoDB. [cite: 14]</p>
+                    <p class="text-sm text-zinc-500">
+                        Modelagem e otimização de bancos de dados com MySQL, PostgreSQL e MongoDB, garantindo integridade, performance e segurança.
+                    </p>
                 </div>
+
             </div>
         </div>
     </section>
@@ -123,31 +171,55 @@
             <div class="relative pl-12 border-l border-zinc-800">
                 <div class="absolute w-3 h-3 bg-emerald-500 rounded-full -left-[6px] top-1 timeline-dot"></div>
                 <div class="flex flex-col md:flex-row md:justify-between mb-4">
-                    <h3 class="text-2xl font-bold text-white">CEO & Full Stack Developer [cite: 17]</h3>
-                    <span class="text-emerald-500 font-mono text-sm">03/24 — ATUAL [cite: 18]</span>
+                    <h3 class="text-2xl font-bold text-white">Full Stack Developer (Web & Mobile)</h3>
+                    <span class="text-emerald-500 font-mono text-sm">02/24 — ATUAL</span>
                 </div>
                 <p class="text-emerald-400 font-semibold mb-2">Dalle Tech</p>
-                <p class="text-zinc-500 text-sm max-w-3xl leading-relaxed">Liderança estratégica e desenvolvimento de ecossistemas web complexos utilizando a stack Laravue. [cite: 19]</p>
+                <p class="text-zinc-500 text-sm max-w-3xl leading-relaxed">
+                    Responsável pelo desenvolvimento e manutenção de aplicações web escaláveis com Laravel, Node e Vue, aplicando princípios de arquitetura limpa e boas práticas de engenharia de software. 
+                    Atuo também no desenvolvimento de aplicativos mobile multiplataforma com React Native, integrados a APIs REST e preparados para ambientes de produção. 
+                    Além da parte técnica, realizo planejamento de demandas, organização de tarefas, code review e acompanhamento do desempenho da equipe, garantindo qualidade, prazos e evolução contínua do time.
+                </p>
             </div>
 
             <div class="relative pl-12 border-l border-zinc-800">
                 <div class="absolute w-3 h-3 bg-zinc-700 rounded-full -left-[6px] top-1"></div>
                 <div class="flex flex-col md:flex-row md:justify-between mb-4">
-                    <h3 class="text-2xl font-bold text-white italic text-zinc-400">Desenvolvedor Full Stack [cite: 20]</h3>
-                    <span class="text-zinc-600 font-mono text-sm">02/24 — 05/25 [cite: 21]</span>
+                    <h3 class="text-2xl font-bold text-white italic text-zinc-400">Desenvolvedor Full Stack</h3>
+                    <span class="text-zinc-600 font-mono text-sm">02/24 — 05/25</span>
                 </div>
                 <p class="text-zinc-400 font-semibold mb-2">Datasource Expert</p>
-                <p class="text-zinc-500 text-sm max-w-3xl leading-relaxed">Foco em Nuxt, Pinia, Docker e refatoração de sistemas legados para arquiteturas modernas. [cite: 22, 23]</p>
+                <p class="text-zinc-500 text-sm max-w-3xl leading-relaxed">
+                    Responsável pelo desenvolvimento de novas funcionalidades utilizando o ecossistema Laravel e Vue, atuando na manutenção evolutiva e corretiva do sistema. 
+                    Realização de code reviews, refatorações e melhorias de performance, contribuindo para a qualidade do código, escalabilidade da aplicação e eficiência do time.
+                </p>
             </div>
 
             <div class="relative pl-12 border-l border-zinc-800">
                 <div class="absolute w-3 h-3 bg-zinc-700 rounded-full -left-[6px] top-1"></div>
                 <div class="flex flex-col md:flex-row md:justify-between mb-4">
-                    <h3 class="text-2xl font-bold text-white italic text-zinc-400">Coordenador de Cursos [cite: 24]</h3>
-                    <span class="text-zinc-600 font-mono text-sm">10/23 — 12/23 [cite: 25]</span>
+                    <h3 class="text-2xl font-bold text-white italic text-zinc-400">Coordenador de Cursos de Programação e Ciencia de dados</h3>
+                    <span class="text-zinc-600 font-mono text-sm">10/23 — 12/23</span>
                 </div>
                 <p class="text-zinc-400 font-semibold mb-2 italic">Infinity School</p>
-                <p class="text-zinc-500 text-sm max-w-3xl leading-relaxed">Gestão educacional de tecnologia e docência em Front-End. [cite: 26]</p>
+                <p class="text-zinc-500 text-sm max-w-3xl leading-relaxed">
+                    Atuação como coordenador dos cursos de Programação e Ciência de Dados, liderando a organização acadêmica e acompanhamento do desempenho de instrutores, monitores e alunos. 
+                    Exercício de docência em desenvolvimento de software e análise de dados, promovendo formação técnica orientada ao mercado e desenvolvimento de projetos práticos.
+                </p>
+            </div>
+
+            <div class="relative pl-12 border-l border-zinc-800">
+                <div class="absolute w-3 h-3 bg-zinc-700 rounded-full -left-[6px] top-1"></div>
+                <div class="flex flex-col md:flex-row md:justify-between mb-4">
+                    <h3 class="text-2xl font-bold text-white italic text-zinc-400">Fundador & Desenvolvedor Full Stack</h3>
+                    <span class="text-zinc-600 font-mono text-sm">05/22 — 12/23</span>
+                </div>
+                <p class="text-zinc-400 font-semibold mb-2 italic">Junior Developers Group</p>
+                <p class="text-zinc-500 text-sm max-w-3xl leading-relaxed">
+                    Fundador e responsável pela liderança estratégica de uma organização voltada à formação Full Stack de estudantes de tecnologia. 
+                    Estruturei trilhas de aprendizado, coordenei projetos práticos e estabeleci parcerias para ampliar oportunidades profissionais. 
+                    Atuei como mentor técnico, promovendo cultura de colaboração, autonomia e excelência no desenvolvimento de software.
+                </p>
             </div>
         </div>
     </section>
@@ -157,12 +229,12 @@
         <div class="grid md:grid-cols-2 gap-8">
             <div class="glass p-8 rounded-3xl">
                 <span class="text-xs font-mono text-emerald-500">Graduação</span>
-                <h4 class="text-lg font-bold text-white mt-2">Engenharia de Produção [cite: 35]</h4>
+                <h4 class="text-lg font-bold text-white mt-2">Engenharia de Produção</h4>
                 <p class="text-zinc-500 text-sm">Centro Universitário Estácio do Ceará</p>
             </div>
             <div class="glass p-8 rounded-3xl border-emerald-500/20">
                 <span class="text-xs font-mono text-purple-500">Pós-Graduação</span>
-                <h4 class="text-lg font-bold text-white mt-2">Engenharia de Software [cite: 36]</h4>
+                <h4 class="text-lg font-bold text-white mt-2">Engenharia de Software</h4>
                 <p class="text-zinc-500 text-sm">Descomplica UniAmérica</p>
             </div>
         </div>
@@ -172,56 +244,103 @@
         <div class="max-w-5xl mx-auto px-6">
             <h2 class="text-emerald-500 font-bold text-sm tracking-[0.3em] uppercase mb-12 text-center">05. Arsenal Tecnológico</h2>
             
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+    
                 <div>
-                    <h4 class="text-white font-bold mb-6 flex items-center"><i data-lucide="server" class="mr-2 text-emerald-500"></i> Backend</h4>
+                    <h4 class="text-white font-bold mb-6 flex items-center">
+                        <i data-lucide="server" class="mr-2 text-emerald-500"></i> Backend
+                    </h4>
                     <div class="flex flex-wrap gap-2">
-                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-white">PHP / LARAVEL [cite: 52, 57]</span>
-                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">MYSQL [cite: 53]</span>
-                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">POSTGRESQL [cite: 49]</span>
-                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">MONGODB [cite: 55]</span>
-                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">FIREBASE [cite: 58]</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-white">PHP / Laravel</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-white">Node.js</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">MySQL</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">PostgreSQL</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">MongoDB</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">Firebase</span>
                     </div>
                 </div>
+
                 <div>
-                    <h4 class="text-white font-bold mb-6 flex items-center"><i data-lucide="monitor" class="mr-2 text-emerald-500"></i> Frontend</h4>
+                    <h4 class="text-white font-bold mb-6 flex items-center">
+                        <i data-lucide="monitor" class="mr-2 text-emerald-500"></i> Frontend
+                    </h4>
                     <div class="flex flex-wrap gap-2">
-                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-white">VUE / NUXT [cite: 50, 51]</span>
-                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">TYPESCRIPT [cite: 44]</span>
-                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">TAILWIND [cite: 48]</span>
-                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">QUASAR / VUETIFY [cite: 56, 39]</span>
-                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">SHADCN [cite: 43]</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-white">Vue.js / Nuxt</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">TypeScript</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">Tailwind CSS</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">Quasar</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">Vuetify</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">ShadCN</span>
                     </div>
                 </div>
+
                 <div>
-                    <h4 class="text-white font-bold mb-6 flex items-center"><i data-lucide="settings" class="mr-2 text-emerald-500"></i> Ferramentas</h4>
+                    <h4 class="text-white font-bold mb-6 flex items-center">
+                        <i data-lucide="smartphone" class="mr-2 text-emerald-500"></i> Mobile
+                    </h4>
                     <div class="flex flex-wrap gap-2">
-                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">DOCKER [cite: 46]</span>
-                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">FIGMA [cite: 42]</span>
-                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">INERTIA [cite: 40]</span>
-                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">SCSS [cite: 38]</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-white">React Native</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">Android</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">iOS</span>
                     </div>
                 </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-6 flex items-center">
+                        <i data-lucide="settings" class="mr-2 text-emerald-500"></i> Ferramentas
+                    </h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">Docker</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">Figma</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">Inertia</span>
+                        <span class="skill-card px-4 py-2 rounded-lg text-xs font-bold text-zinc-400">SCSS</span>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <footer class="py-20 text-center">
+    <footer class="py-24 text-center border-t border-zinc-800">
         <div class="max-w-xl mx-auto px-6">
-            <h2 class="text-3xl font-bold text-white mb-6 italic">Vamos construir algo incrível?</h2>
-            <p class="text-zinc-500 text-sm mb-10">Atualmente disponível para novos projetos e colaborações estratégicas.</p>
-            <a href="mailto:carlosdavi004@gmail.com" class="text-emerald-500 font-bold border-b border-emerald-500 pb-2 hover:text-white hover:border-white transition italic">carlosdavi004@gmail.com [cite: 7]</a>
-            
-            <div class="mt-20 flex justify-center space-x-6 text-zinc-600">
-                <span class="text-[10px] uppercase tracking-widest font-bold">Fortaleza [cite: 9]</span>
-                <span class="text-[10px] uppercase tracking-widest font-bold">Brasil</span>
-                <span class="text-[10px] uppercase tracking-widest font-bold">2026</span>
+
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6 italic">
+                Vamos construir algo de alto impacto?
+            </h2>
+
+            <p class="text-zinc-500 text-sm mb-12 leading-relaxed">
+                Estou disponível para novos projetos, consultorias e colaborações estratégicas 
+                em aplicações Web e Mobile.
+            </p>
+
+            <div class="flex justify-center gap-6 flex-wrap">
+                <a 
+                    href="mailto:carlosdavi004@gmail.com"
+                    class="px-6 py-3 rounded-xl bg-emerald-600/10 border border-emerald-500/40 text-emerald-400 font-semibold text-sm hover:bg-emerald-600 hover:text-white transition"
+                >
+                    Enviar Email
+                </a>
+
+                <a 
+                    href="https://wa.me/5585981759726"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="px-6 py-3 rounded-xl bg-zinc-800 text-white font-semibold text-sm hover:bg-emerald-600 transition"
+                >
+                    WhatsApp
+                </a>
             </div>
+
+            <div class="mt-20 flex justify-center space-x-6 text-zinc-600">
+                <span class="text-[10px] uppercase tracking-widest font-bold">Maracanaú</span>
+                <span class="text-[10px] uppercase tracking-widest font-bold">Brasil</span>
+                <span class="text-[10px] uppercase tracking-widest font-bold">© 2026 Carlos Davi</span>
+            </div>
+
         </div>
     </footer>
 
     <script>
-        // Initialize Lucide icons
         lucide.createIcons();
     </script>
 </body>
